@@ -1,63 +1,30 @@
-## Description
+### Description
 
-This repository contains scripts you will need to generate a PRD template.
-It also contains a sample PRD under `samples/epfl-pocketcampus` for your reference.
+This repository contains a template for the PRD deliverable for the CS-311: The Software Enterprise (SwEnt) course.
+You can find it in the `template` folder.
 
->[!NOTE]
->As you may know, the EPFL Pocketcampus app was developed in the first iteration
->of this course. 
+There is also a sample PRD under `samples/epfl-pocketcampus`; this is for the EPFL Pocketcampus app, which was developed during the very first intantiation of this course. You can use this sample PRD as a reference.
 
-## Setup
+### Instructions
 
-1. Ensure you have python3 on your local machine. 
+1. Fork this repo into your organization and clone it 
 ```
-python3 --version
-```
-
-2. Fork this repo into your organization and clone it 
-```
-git clone git@github.com:<your-org-name>/mvp-prd.git
-cd mvp-prd
+git clone git@github.com:<your-org-name>/prd.git
+cd prd
 ```
 
-3. Create a Virtual Enviornment
-```
-pip3 install virtualenv
-python3 -m virtualenv venv
-```
+2. Set up Github Actions
+ 
+This repo includes a workflow called `build_pdf.yml` that uses GitHub Actions to automatically generate a PDF of your PRD.
 
-4. Activate the Virtual Environment
-```
-source venv/bin/activate
-```
+After cloning this repo, customize the workflow for your own team by editing the workflow as follows:
 
-5. Install the `prd_tools` python app
-```
-pip install -r requirements.txt
-pip install -e .
-```
+- Line 40: Set the right team number, by replacing `26` with your team's number [here](.github/workflows/build_pdf.yml#40);
+- Line 46: Same for the PDF artifact's name (replace `26` with your team's number) [here](.github/workflows/build_pdf.yml#46).
+  
+3. Write your PRD
 
-## Usage
+To produce your own PRD, read the comments in italics, fill out the various sections, then remove the comments.
+Use a collaborative workflow (branches, PRs, etc.) within your team to edit the PRD.
+Pushing to `main` will generate the PDF. 
 
-### Creating a PRD Template
-
-1. Initialize a new PRD template
-```
-swent_prd init <optional: folder name>
-```
-If you do not pass a folder name, it will create a default folder called
-`sections`. 
-
-### Generating the PDF
-
-1. Run the `generate` command
-```
-swent_prd generate  --team <TeamNumber> <folder name>
-```
-
-This will create a file called `Team_<Number>_prd.pdf` in the root folder.
-
->[!IMPORTANT]
-> When you begin filling out the various sections, you should remove the
-> comments added in italics. They are only there to help start your thinking
-> process.

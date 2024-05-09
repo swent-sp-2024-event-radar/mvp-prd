@@ -31,7 +31,7 @@ def init(folder_name):
 
 @click.command()
 @click.argument('folder_name', required=False, default='sections')
-@click.option('--team', required=True, type=click.IntRange(1, 25), help='Team Number (between 1 and 25)')
+@click.option('--team', required=True, type=click.IntRange(1, 26), help='Team Number (between 1 and 26)')
 def generate(folder_name, team):
     prd = PRD(folder_name)
     try:
