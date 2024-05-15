@@ -39,4 +39,4 @@
 *What is missing to bridge from PoC to MVP?*
 - there are still some user flows that we designed that are missing from the PoC
 - some important defining features regarding connecting with others still need to be implemented
-- some more user flows have to be thought through and designed to make sure they are the best for the user
+- some more user flows have to be thought through and designed to make sure they are the best for the user, such as group chats, in event geo-location, and history of attended events
