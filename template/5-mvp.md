@@ -10,7 +10,7 @@
 - **University Student**: A university student who is actively involved in campus life and interested in exploring social and academic events both on and off campus. This persona values opportunities for networking, discovering new interests, and engaging in community activities.
 
 *High-level scenarios to adopt, use and share the product.*
-- **Adopting the Product**: A university student hears about Event Radar through a campus event promotion or fellow classmates. Intrigued by the idea of easily discovering and attending events, they download the app to explore upcoming activities relevant to their academic and personal interests.
+- **Adopting the Product**: A university student hears about Event Radar through a campus event promotion or fellow classmates. Intrigued by the idea of easily discovering and attending events and connecting with other event goers all in one centralized app, they download the app to explore upcoming activities relevant to their academic and personal interests.
 - **Using the Product**: The student uses Event Radar to find and register for campus lectures, workshops, and social gatherings. They also discover off-campus events like local music shows and cultural festivals using the app's location-based event discovery feature.
 - **Sharing the Product**: After a successful experience attending a campus event found through Event Radar, the student shares their enthusiasm with friends and classmates. They post about the app on social media platforms, recommending it as a valuable tool for staying connected and discovering exciting events both on and off campus. They even host some of their own events on the platform, making even more people aware of it.
 
@@ -20,9 +20,9 @@
 - As an event goer, I want to view a list of nearby events, so that I can decide which event to go to next to socialise and meet new people.
 - As an event goer, I want to have a unique identification ticket that allows me access to events I register for, so that I can easily access events and participate seamlessly.
 - As an event goer, I want to scan the QR codes of people I meet so that I can keep track of who I met and catch up with them later.
-- As an event goer, I want to see a list of people whose QR codes I have scanned in each event, so that I can easily recall who I met.
+- As an event goer, I want to view a list of people whose QR codes I have scanned at events, so that I can easily recall who I met.
 - As an event goer, I want to be able to initiate private messages with people whose QR codes I scanned in an event, so that I can connect with them without exchanging contact information manually and communicate with them outside of the event context.
-- As an event organizer I want to be able to create events on the app so that people can register and stay informed about the planning
+- As an event organizer I want to be able to create events on the app so that people can register and stay informed about the planning.
 
 *Identify and prioritise the key features required.*  
 In order of priority:
