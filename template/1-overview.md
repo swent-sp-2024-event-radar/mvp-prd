@@ -1,18 +1,9 @@
 # Overview
 
-*Maximum: 2 pages*
+Event Radar is an innovative app designed to effortlessly facilitate connections among individuals by streamlining event discovery, registration, and networking in one place. It allows users to discover and register for upcoming events in their local area, enabling them to connect seamlessly with friends and new acquaintances they meet during the event. Event hosts can easily create and manage events while leveraging the app's unique QR code system to scan tickets and easily interact with event attendees. By focusing on building a vibrant local community, Event Radar aims to revolutionize the way people interact and form connections in person.
 
-*What is this project about?*
-- Event Radar is an app that helps to _easily_ facilitate connections with others
-- it allows users to discover and register for upcoming events in their area, and easily connect with friends they meet
-- it also allows event hosts to easily create and manage events, and even scan tickets for event goers
-- all of this is done through one all-purpose, unique QR code
-- emphasize building a local community
+Event Radar is all about fostering meaningful connections. It's a one-stop solution for finding events, connecting with new friends, messaging people, and hosting events. It's designed to eliminate barriers to creating meaningful connections after events. Users can easily save each other's contact information by scanning their QR code. This strongly encourages users to engage directly with each other at the event and continue that engagement afterwards, enhancing the sense of community and fostering more meaningful connections.
 
-*Describe succinctly and precisely its purpose.*
-- provides a one-stop shop to find events, connect with new friends, message people, and even host events
-- removes the barriers to creating connections after the event (by scanning QR codes to add friends, you no longer need to remember someone's name the next day. Simply go to the app and you'll find their information easily.)
-- this also encourages people to make live, in-person connections with others
+Event Radar brings all the functionalities event goers and hosts need into a single platform. You can effortlessly discover events based on your interests and location, register with ease, and instantly connect with others by scanning a simple QR code. For event hosts, the app provides robust tools to manage events efficiently, from ticketing to attendee tracking. This comprehensive approach ensures that both attendees and hosts have an enhanced, streamlined experience, promoting more dynamic and interactive events.
 
-*Include a 3-sentence (max) elevator pitch.*  
-Event Radar is a versatile app that simplifies event discovery, connection-making, and hosting. Find nearby events, register effortlessly, and connect instantly with new friends—all through one unique QR code. Whether you're attending or hosting, Event Radar is the ultimate tool for social networking and event coordination, streamlining connections before, during, and after any gathering.
+In summary, Event Radar is a versatile app that simplifies event discovery, connection-making, and hosting. Find and register for nearby events effortlessly and connect instantly with new friends—all through one unique QR code. Whether attending or hosting, Event Radar is the ultimate tool for social networking and event coordination, streamlining connections before, during, and after any gathering.

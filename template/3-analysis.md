@@ -1,7 +1,5 @@
 # Analysis of the Situation
 
-*What are the competing products in the market today?*
-- Resident Advisor, Event Frog (@Joyti to add more)
+The market for Event Radar is highly competitive, with several established players offering robust event management and discovery solutions. Key competitors include EventBrite, a leading global platform known for its comprehensive event creation and ticketing services. Resident Advisor focuses on electronic music events and nightlife, appealing to a niche but passionate audience. In Switzerland, Infomaniak, EventFrog, and Smeetz dominate the local event management scene, providing tailored solutions for various event types, from concerts to conferences. These competitors have established user bases and advanced features, presenting significant competition for Event Radar. However, most of these apps focus on event discovery but do not facilitate connections at events.
 
-*What are the complementary products in the market today?*
-- EventBrite, Meetup (?)
+Complementary products in the market enhance the event discovery and attendance experience, aligning well with Event Radar’s objectives. Meetup facilitates social gatherings based on shared interests, driving community engagement similar to Event Radar’s goals. TicketSwap provides a secure platform for buying and selling event tickets, addressing secondary market needs. Social media apps like Facebook, Instagram, and X (formerly Twitter) are crucial for event promotion, allowing organizers to reach broader audiences and engage with potential attendees. Integrating these complementary products could enhance Event Radar's functionality, providing users with a seamless experience from event discovery to post-event connections.
