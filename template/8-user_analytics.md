@@ -16,8 +16,11 @@ We also want to measure the total number of active users on the app.
 
 ### Success Criteria
 
-The app is a success if the number of users and event interaction is constantly increasing. 
-Maintaining a minimum monthly user retention rate of 60% over the first year of app launch, with a concurrent increase in monthly active users by at least 20% each quarter. Additionally, achieving an average app store rating of 4.5 stars or higher based on a minimum of 500 user reviews within the first six months of launch.
+-  Aim to onboard at least 5% of the target population within the first month of launch, measured by number of downloads.
+-  Achieve a DAU (Daily Active Users) of 10% and MAU (Monthly Active Users) of 70% in the first month.
+-  Achieve a retention rate of at least 40% in the first month.
+-  Achieve a minimum average rating of 3.5 out of 5 stars on app stores within the first three months of launch.
+-  Maintaining a minimum monthly user retention rate of 60% over the first year of app launch
 
 ### Analysis plan
 
