@@ -21,7 +21,7 @@ __Registering for Events:__
 - Allow users to view event details including remaining number of tickets, and confirm their attendance with minimal effort.
 - To register for an event, users only need to select their ticket and pay if it's not free.
 - Implement a seamless payment interface. (Not in POC)
-- Any event registered for by a user will show in the “Upcoming” tab automatically.
+- Any event registered for by a user will show in the Upcoming tab automatically.
 
 __Create Events:__
 
