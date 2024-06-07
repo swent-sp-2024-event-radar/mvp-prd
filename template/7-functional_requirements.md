@@ -18,7 +18,7 @@ __Browse Events and Upcoming Events (Registered for):__
 - Ensure that any changes made by a host in an event, such as edition, creation, or deletion, are immediately reflected in Browse and Upcoming Events.
  
 __Registering for Events:__
-- Allow users to view event details and confirm their attendance with minimal effort.
+- Allow users to view event details including remaining number of tickets, and confirm their attendance with minimal effort.
 - To register for an event, users only need to select their ticket and pay if it's not free.
 - Implement a seamless payment interface. (Not in POC)
 - Any event registered for by a user will show in the “Upcoming” tab automatically.
@@ -27,7 +27,7 @@ __Create Events:__
 
 - Provide a user-friendly interface for creating events.
 - Enable organizers to add a detailed description, image, location, date, ticket supply, and other relevant information.
-- Any new event created will be automatically added to Browse Events for other users.
+- Any new event created will be automatically added to Browse Events for other users and My Hosted Events.
 
 __Edit Events(Not in POC):__
 
@@ -51,8 +51,8 @@ __QR Code Generation and Scanning:__
 
 __Private Chats:__
 
-  Implement a private message system that allows users to chat with their friends and see their profile information.
-  Integrate Firebase listeners to update private chats automatically upon any update.
+- Implement a private message system that allows users to chat with their friends and see their profile information.
+- Integrate Firebase listeners to update private chats automatically upon any update.
  
 __Group Chat(Not in POC):__
 
@@ -65,14 +65,6 @@ __Group Chat(Not in POC):__
 - Group chat should not be deleted after the event.
 - Users should be able to access previous messages in the group after joining.
 
-
-
-
 *Figure: Architecture Diagram*
 
-
 ![architecture diagram](images/architecture-diagram.png)
-[Image Link](https://excalidraw.com/#json=n2223D8IlggcIHplABkOC,MMKRiq6O-Cz21lEovHRE3w)
-
-
-
