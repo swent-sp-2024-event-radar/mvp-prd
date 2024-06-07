@@ -22,13 +22,13 @@ __Registering for Events:__
 - Implement a seamless payment interface. (Not in POC)
 - Any event registered for by a user will show in the “Upcoming” tab automatically.
 
-  __Create Events:__
+__Create Events:__
 
 - Provide a user-friendly interface for creating events.
 - Enable organizers to add a detailed description, image, location, date, ticket supply, and other relevant information.
 - Any new event created will be automatically added to Browse Events for other users.
 
-  __Edit Events(Not in POC):__
+__Edit Events(Not in POC):__
 
 - Allow Event organizers to easily change event details, provided it's not too close to the event date.
 - Any change in event details should be automatically shown on other users' apps without needing a manual refresh.
