@@ -1,7 +1,7 @@
-### Functional Requirements
+# Functional Requirements
 
 
-# Browse, Register for, Create, and Edit Events
+### Browse, Register for, Create, and Edit Events
 
 **Motivation:**
 
@@ -34,7 +34,7 @@ __Edit Events(Not in POC):__
 - Any change in event details should be automatically shown on other users' apps without needing a manual refresh.
 
 
-# QR Code Scanning and Secure Messaging System
+### QR Code Scanning and Secure Messaging System
 
 **Motivation:**
 
