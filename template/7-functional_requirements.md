@@ -18,6 +18,7 @@ __Browse Events and Upcoming Events (Registered for):__
 - Ensure that any changes made by a host in an event, such as edition, creation, or deletion, are immediately reflected in Browse and Upcoming Events.
  
 __Registering for Events:__
+
 - Allow users to view event details including the remaining number of tickets, and confirm their attendance.
 - To register for an event, users only need to select their ticket and pay if it's not free.
 - Implement a seamless payment interface.
@@ -35,6 +36,7 @@ __Edit Events:__
 - Any change in event details should be automatically shown on other users' apps without needing a manual refresh.
 
 __Manage Event:__
+
 - allow organisers to scan tickets to verify that users are on the attendee list
 - allow organisers to view the list of attendees and send broadcast messages to them.
 - allow organisers to view the event details and edit them if necessary.
