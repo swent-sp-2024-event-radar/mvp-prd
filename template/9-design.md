@@ -19,8 +19,8 @@ The app will leverage Jetpack Compose for dynamic UI rendering. Compose enables 
 - **Composable Functions**: These will be used to define each screen and UI component, enabling reusable and modular UI elements.
 - **State Management**: ViewModels will manage the state, ensuring the UI is always in sync with the underlying data model.
 ### Essential Screens
-#### i Navigation Bar
-- **Features**: Icons for the five Main Screens (all except 2.1, 4.1, 6 and 6.1): Home, Messages, QR Code, Hosted Events, and Profile
+#### i Navigation Bar (is not a screen per se but is at the bottom of all Main Screens (1, 2, 3, 4, and 5)
+- **Features**: Icons for the five Main Screens: Home, Messages, QR Code, Hosted Events, and Profile
 - **Compenents**: Navigation Menu with the icons of the main screens and an Active State Indicator
 - **Description**: The Bottom Navigation Bar enhances user experience by providing a consistent and accessible means of navigating the app. Located at the bottom of the screen, it ensures that the primary functions of the app are always within easy reach, improving the overall usability and efficiency of the app.
 #### 1 Home Screen
