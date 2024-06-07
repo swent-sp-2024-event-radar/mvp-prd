@@ -4,6 +4,7 @@
 **Browse, Register for, Create, and Edit Events**
 **Motivation:**
 Users need an intuitive way to discover events based on their location and preferences and register for events seamlessly. Users should also be able to create and edit events based on their preferences. Users expect real-time updates, meaning any event changes should be automatically updated. Real-time updates enhance the user experience by ensuring users always have the most current information.
+
 **Proposed Solution:**
 __Browse Events and Upcoming Events (Registered for):__
 - Implement a filter button that allows users to add a radius field to see only events within that radius. The radius is set around the user's current location, which they gave permission for when first signing into the app. Additionally, the filter allows users to see events based on their preferences, such as event categories.
@@ -27,6 +28,7 @@ __Browse Events and Upcoming Events (Registered for):__
 **QR Code Scanning and Secure Messaging System**
 **Motivation:**
 We want to allow users to add other users they meet by scanning their QR code. Users should be able to see their friends list and privately message them. Private chats should automatically update whenever a new message is sent or seen. Upon registering for an event, all attendees should be added to a group chat for that event. This will facilitate organization and meeting new people. Hosts should also be able to scan other users' QR codes to verify that they registered for their event.
+
 **Proposed Solution:**
 __QR Code Generation and Scanning:__
 - Upon sign-up, every user is assigned a unique QR code.
