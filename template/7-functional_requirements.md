@@ -13,6 +13,7 @@ __Browse Events and Upcoming Events (Registered for):__
 
 - Implement a filter button that allows users to add a radius field to see only events within that radius. The radius is set around the user's current location, which they gave permission for when first signing into the app. Additionally, the filter allows users to see events based on their preferences, such as event categories.
 - Implement a Map view initialized on the current user’s location, allowing them to see markers representing events in their vicinity. Users can also filter in the map view.
+- Allow users to search for events by typing the event name.
 - Allow users to see event details when clicking on an Event card or a Map marker.
 - Ensure that any changes made by a host in an event, such as edition, creation, or deletion, are immediately reflected in Browse and Upcoming Events.
  
