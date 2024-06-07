@@ -18,7 +18,7 @@ __Browse Events and Upcoming Events (Registered for):__
 - Ensure that any changes made by a host in an event, such as edition, creation, or deletion, are immediately reflected in Browse and Upcoming Events.
  
 __Registering for Events:__
-- Allow users to view event details including remaining number of tickets, and confirm their attendance with minimal effort.
+- Allow users to view event details including remaining number of tickets, and confirm their attendance.
 - To register for an event, users only need to select their ticket and pay if it's not free.
 - Implement a seamless payment interface. (Not in POC)
 - Any event registered for by a user will show in the Upcoming tab automatically.
@@ -39,7 +39,7 @@ __Edit Events(Not in POC):__
 
 **Motivation:**
 
-We want to allow users to add other users they meet by scanning their QR code. Users should be able to see their friends list and privately message them. Private chats should automatically update whenever a new message is sent or seen. Upon registering for an event, all attendees should be added to a group chat for that event. This will facilitate organization and meeting new people. Hosts should also be able to scan other users' QR codes to verify that they registered for their event.
+We want to allow users to add other users they meet by scanning their QR code. Users should be able to see their friends list and to privately message them. Private chats should automatically update whenever a new message is sent or seen. Upon registering for an event, all attendees should be added to a group chat for that event. This will facilitate organization and meeting new people. Hosts should also be able to scan other users' QR codes to verify that they registered for their event.
 
 **Proposed Solution:**
 
@@ -52,12 +52,12 @@ __QR Code Generation and Scanning:__
 __Private Chats:__
 
 - Implement a private message system that allows users to chat with their friends and see their profile information.
-- Integrate Firebase listeners to update private chats automatically upon any update.
+- Ensure that whenever a new message is sent or seen, private chats are immediately updated.
  
 __Group Chat(Not in POC):__
 
 - Upon an event creation, a group chat is created with all the hosts.
-- Upon purchasing a ticket, you are automatically added to the group chat.
+- Upon purchasing a ticket, the user is automatically added to the group chat.
 - Users can decide to leave the group chat.
 - Users must be able to choose which information can be visible to other group members (differentiate between randoms & friends).
 - Polls, pictures, and text messages should be the main three group chat features.
