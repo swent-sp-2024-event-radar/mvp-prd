@@ -17,8 +17,8 @@
 ## Data Model
 
 *What data are you collecting / managing?*
-- User data: Names, email addresses, user's friends, user bios, user profile pictures.
-- Event data: Event locations, categories, start and end date, ticket price, tickets purchased, participant lists, organiser lists.
+- User data: username, name and family name, phone number, email addresses, user's friends, attending event list, user bios, user profile pictures.
+- Event data: Event locations, categories, start and end date, ticket price, tickets purchased, attendee lists, organiser lists.
 
 *How is it organised?*
 - Using firebase database for user and event data.
@@ -50,7 +50,7 @@
 - UI tests to ensure UI components run smoothly.
 - ViewModel tests to ensure that appropriate states are prepared for UI.
 - Backend testing using Mocks to ensure backend services like firebase work as expected.
-- Integration testing to ensure the app runs smoothly.
+- End-to-end and Integration testing to ensure the app runs smoothly.
 
 *Any special infrastructure requirements.*
 - Utilizing hilt for dependency injection in testing.

@@ -6,7 +6,7 @@ It simplifies ones ability to network with others by enabling instant connection
 
 Users will no longer have to worry about forgetting to take someone’s contact. Keeping in touch with those you met during an event is as simple as scanning a Qr Code.
 
-Event hosts can manage their large attendee lists effortlessly using Event Radar’s event management tools and create communities thanks to Event Radar’s social media capabilities.
+Event hosts can manage their large attendee list effortlessly using Event Radar’s event management tools and create communities thanks to Event Radar’s social media capabilities.
 
 Our comprehensive solution helps build a sustainable user base and community driven environment that competes with more established solutions that do not address nor combine such functionalities.
 

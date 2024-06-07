@@ -17,14 +17,15 @@ Sprint | Objectives | Outcomes
 3 | Core Feature Development | Implement sign-up flow, set up user database, develop login functionality, create home page, release initial APK for testing.
 
 Milestone 2
-Allow users to search for events and register to them, and Qr Code Generation
+Allow users to search for events and register to them, allow hosts to create events and Qr Code Generation and 
 
 4 | Event Discovery Features | Enable browsing of events in map view and list view, display event details when selected
-5 | Event Registration and Search Filter | Develop a search feature for events, implement functionality for users to register and purchase tickets to events.
+5 | Event Registration and Search Filter | Develop a search feature for events, implement functionality for users to register and purchase tickets to events (payment gateway integration).
 6 | QR Code and Event Creation | Develop functionality for users to create events with: multiple ticket tiers, added co-hosts and option to update the event details. Ensure each user is assigned a unique Qr code upon signUp.
 
 Milestone 3
 Allow users to send private messages, Scan Qr Codes, and view friend profiles
+
 
 7 | Social Features | Enable private messaging between users and allow users to view their list of friends and a friends' profile. Create a Group Chat linked to each event so that attendees can interact as soon as they purchase a ticket.
 8 | Scan Qr Code, Add Friend, Finalise Week 7 features | Allow users to display their Qr Code and to scan each other's Qr Codes to add one another as friends. Search for users via their username to send them a friend Requests. Finalise the Social features of week 7 (particularly large)
@@ -32,7 +33,7 @@ Allow users to send private messages, Scan Qr Codes, and view friend profiles
 Milestone 4
 Allow users to create and manage events
 
-9 | Event and Management Refinements and Ticket Scanning | Allow event organisers and co-organisers to view events they are hosting, view each event's attendee-list with the ability to send out a broadcast message. Implement Scan Ticket functionality.
+9 | Event and Management Refinements and Ticket Scanning | Allow event organisers to edit their event details, delete the event, view each event's attendee-list with the ability to send out a broadcast message. Add co-organisers to have privileges on manging event.  Implement Scan Ticket functionality.
 10 & 11 | Internal Testing and Optimisation | Conduct thorough testing across devices, optimise UI/UX, fix bugs, and refine features based on feedback.
 12 | Pre-Launch Preparation | Final bug fixes and optimisations, prepare app store and launch materials.
 13 | Alpha Testing | Roll out app to alpha testers, gather user feedback, and implement necessary hotfixes.
