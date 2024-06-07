@@ -31,7 +31,7 @@ __Create Events:__
 
 __Edit Events(Not in POC):__
 
-- Allow Event organizers to easily change event details, provided it's not too close to the event date.
+- Allow event organizers to easily change event details, provided it's not too close to the event date.
 - Any change in event details should be automatically shown on other users' apps without needing a manual refresh.
 
 
@@ -39,7 +39,7 @@ __Edit Events(Not in POC):__
 
 **Motivation:**
 
-We want to allow users to add other users they meet by scanning their QR code. Users should be able to see their friends list and to privately message them. Private chats should automatically update whenever a new message is sent or seen. Upon registering for an event, all attendees should be added to a group chat for that event. This will facilitate organization and meeting new people. Hosts should also be able to scan other users' QR codes to verify that they registered for their event.
+We want to allow users to add other users they meet by scanning their QR code. Users should be able to see their friends list and privately message them. Private chats should automatically update whenever a new message is sent or seen. Upon registering for an event, all attendees should be added to a group chat for that event. This will facilitate organization and meeting new people. Hosts should also be able to scan other users' QR codes to verify that they registered for their event.
 
 **Proposed Solution:**
 
