@@ -41,14 +41,20 @@ __Edit Events(Not in POC):__
 We want to allow users to add other users they meet by scanning their QR code. Users should be able to see their friends list and privately message them. Private chats should automatically update whenever a new message is sent or seen. Upon registering for an event, all attendees should be added to a group chat for that event. This will facilitate organization and meeting new people. Hosts should also be able to scan other users' QR codes to verify that they registered for their event.
 
 **Proposed Solution:**
+
 __QR Code Generation and Scanning:__
+
 - Upon sign-up, every user is assigned a unique QR code.
 - Scanning a QR code allows you to add someone to your friends list.
 - As a host, you can also scan QR codes upon clicking on your event to verify that users are on the attendee list.
-  __Private Chats:__
+
+__Private Chats:__
+
   Implement a private message system that allows users to chat with their friends and see their profile information.
   Integrate Firebase listeners to update private chats automatically upon any update.
-  __Group Chat(Not in POC):__
+ 
+__Group Chat(Not in POC):__
+
 - Upon an event creation, a group chat is created with all the hosts.
 - Upon purchasing a ticket, you are automatically added to the group chat.
 - Users can decide to leave the group chat.
