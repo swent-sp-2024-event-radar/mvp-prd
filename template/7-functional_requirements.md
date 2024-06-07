@@ -18,7 +18,7 @@ __Browse Events and Upcoming Events (Registered for):__
 - Ensure that any changes made by a host in an event, such as edition, creation, or deletion, are immediately reflected in Browse and Upcoming Events.
  
 __Registering for Events:__
-- Allow users to view event details including remaining number of tickets, and confirm their attendance.
+- Allow users to view event details including the remaining number of tickets, and confirm their attendance.
 - To register for an event, users only need to select their ticket and pay if it's not free.
 - Implement a seamless payment interface. (Not in POC)
 - Any event registered for by a user will show in the Upcoming tab automatically.
