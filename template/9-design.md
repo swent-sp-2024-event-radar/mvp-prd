@@ -91,6 +91,7 @@ The app will leverage Jetpack Compose for dynamic UI rendering. Compose enables 
 ### Backend Communication
 
 The app will utilize Firebase for backend communication, leveraging its robust set of tools and services:
+
 -  **Authentication**: Firebase Authentication for secure login and user management.
 -  **Database**: Firebase Firestore for real-time data synchronization and storage.
 -  **Cloud Storage**: Firebase Storage for securely storing user-uploaded photos and other media.
