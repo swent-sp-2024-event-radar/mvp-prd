@@ -14,25 +14,33 @@ __Browse Events and Upcoming Events (Registered for):__
 - Implement a filter button that allows users to add a radius field to see only events within that radius. The radius is set around the user's current location, which they gave permission for when first signing into the app. Additionally, the filter allows users to see events based on their preferences, such as event categories.
 - Implement a Map view initialized on the current user’s location, allowing them to see markers representing events in their vicinity. Users can also filter in the map view.
 - Allow users to search for events by typing the event name.
-- Allow users to see event details when clicking on an Event card or a Map marker.
+- Allow users to see event details when clicking on a displayed event or a Map marker.
 - Ensure that any changes made by a host in an event, such as edition, creation, or deletion, are immediately reflected in Browse and Upcoming Events.
  
 __Registering for Events:__
 - Allow users to view event details including the remaining number of tickets, and confirm their attendance.
 - To register for an event, users only need to select their ticket and pay if it's not free.
-- Implement a seamless payment interface. (Not in POC)
-- Any event registered for by a user will show in the Upcoming tab automatically.
+- Implement a seamless payment interface.
+- Any event registered a user has purchased a ticket to will show in the Upcoming tab automatically.
 
 __Create Events:__
 
 - Provide a user-friendly interface for creating events.
-- Enable organizers to add a detailed description, image, location, date, ticket supply, and other relevant information.
+- Enable organizers to add a detailed description, image, location, date, multiple ticket categories, and other relevant information.
 - Any new event created will be automatically added to Browse Events for other users.
 
-__Edit Events(Not in POC):__
+__Edit Events:__
 
 - Allow event organizers to easily change event details, provided it's not too close to the event date.
 - Any change in event details should be automatically shown on other users' apps without needing a manual refresh.
+
+__Manage Event:__
+- allow organisers to scan tickets to verify that users are on the attendee list
+- allow organisers to view the list of attendees and send broadcast messages to them.
+- allow organisers to view the event details and edit them if necessary.
+- allow organisers to delete an event if they wish to cancel it.
+- allow organisers to assign other co-hosts to an event so that they can gain certain privileges such as the 4 aforementioned points.
+
 
 
 ### QR Code Scanning and Secure Messaging System

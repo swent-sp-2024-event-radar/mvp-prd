@@ -10,7 +10,7 @@ We will measure the usage of various features by tracking the following metrics:
 -    Browsing: User interactions with event browsing, including session duration and frequency.
 -    Hosting: Number of events created and hosted by users.
 -    QR Code Scans: Number of new friendships made through QR code scanning.
--    Subscription/Attendance Rate: Percentage of users subscribing to and attending events.
+-    Attendance Rate: Percentage of users attending events.
 
 We also want to measure the total number of active users on the app.
 

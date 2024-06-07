@@ -7,20 +7,20 @@ The Event Radar MVP aims to bring together the essential features needed for eve
 **Event Radar has two target and key personas:**
 
 - **Event Attendees**: Young to middle aged users who are interested in discovering and attending events in their area, ranging from social gatherings to professional networking events.
-- **Event Hosts/Organizers**: Young to middle aged users, or organizations responsible for planning and managing events, seeking tools to streamline event registration, ticketing, and attendee engagement, as well as promote their event to a young adult audience.
+- **Event Hosts/Organizers**: Young to middle aged users who organise events, seeking tools to streamline event registration, ticketing, and attendee engagement, as well as promote their event to a young adult audience.
 
 Both personas go hand in hand and the app cannot exist without one or the other, thus they are both the key personas. 
 
 **To show how these personas would use Event Radar these are the high-level scenarios to adopt, use and share the product:**
-- **Adopting the Product**: A university student hears about Event Radar through a campus event promotion or fellow classmates. Intrigued by the idea of easily discovering and attending events and connecting with other event goers all in one centralized app, they download the app to explore upcoming activities relevant to their academic and personal interests.
-- **Using the Product**: The student uses Event Radar to find and register for campus lectures, workshops, and social gatherings. They also discover off-campus events like local music shows and cultural festivals using the app's location-based event discovery feature.
-- **Sharing the Product**: After a successful experience attending a campus event found through Event Radar, the student shares their enthusiasm with friends and classmates. They post about the app on social media platforms, recommending it as a valuable tool for staying connected and discovering exciting events both on and off campus. They even host some of their own events on the platform, making even more people aware of it.
+- **Adopting the Product**: A university student hears about Event Radar and it's unique blend of social interaction and event discovery. Intrigued by the idea of easily discovering and attending events and making new friends all in one centralized app, they download the app to explore upcoming activities relevant to their academic and personal interests.
+- **Using the Product**: The student uses Event Radar to find and register to social gatherings and workshops on campus to meet like-minded people and have a good time. They also discover off-campus events like local music shows and cultural festivals using the app's location-based event discovery feature.
+- **Sharing the Product**: After a successful experience using the app by discovering new events and keeping in touch with other attendees, the student shares their enthusiasm with friends and classmates. They post about the app on social media platforms, recommending it as a valuable tool for staying connected and discovering exciting events both on and off campus. They even host some of their own events on the platform, making even more people aware of it.
 
 ## User Stories and Key Features
 
 **User Stories for Event Attendees**
 - As an event attendee, I want to view a list of nearby events, so that I can decide which event to go to next to socialize and meet new people.
-- As an event attendee, I want to have a unique identification ticket that allows me access to events I register for, so that I can easily access events
+- As an event attendee, I want to have a unique identification ticket that allows me access to events I register for and hence easily have access to.
 - As an event attendee, I want to have multiple third-party payment options available, so that I can choose the most convenient payment method. 
 - As an event attendee, I want to scan the QR codes of people I meet so that I can keep in touch with them.
 - As an event attendee, I want to view a list of people whose QR codes I have scanned at events, so that I can easily recall who I met.
@@ -30,10 +30,9 @@ Both personas go hand in hand and the app cannot exist without one or the other,
 - As an event host, I want to be able to create events on the app so that people can discover it and attend.
 - As an event host, I want to offer multiple ticket tiers to encourage early purchases before certain categories sell out and to provide tickets with varying privileges, such as VIP access.
 - As an event host, I want to promote my event to reach a wider audience, increasing the potential for more attendees.
-- As an event host, I want to be able to manage the ticket sales prior to the event occurring, so that I can track attendance and see how many people are going to the event. 
-- As an event host, I want the ability to configure a bank transfer payment method for receiving payments from attendees, ensuring that transactions are processed smoothly and efficiently.
+- As an event host, I want the ability to configure a bank transfer payment method for receiving payments from attendees, ensuring that transactions are processed smoothly.
 - As an event host, I want to scan event attendee QR codes to verify their status, so that I can manage entries efficiently.
-- As an event host, I want to communicate with event attendees easily, so that I can notify and update them about the current event details.
+- As an event host, I want to communicate with event attendees easily via broadcast and direct messaging, so that I can notify and update them about the current event details.
 - As an event host, I want to access relevant information such as ticket sales, attendee lists, and other event details for my hosted events, so I can adequately prepare.
 
 **We aim to integrate the following key features into Event Radar, in order of priority:**
@@ -80,22 +79,20 @@ By focusing on these key features and success metrics, Event Radar aims to deliv
 
 **Advanced Social Networking Features**
 - **Social feeds for user interactions:** Social feeds refer to a stream of content that users can consume in order to enhance the discovery of new events tailored to the user’s interests. However, implementing social feeds requires complex recommendation algorithms and additional infrastructure for content discovery. To keep the MVP simple and focused on core functionalities, social feeds will not be included.
-- **Shared Photo to Start a New Chat Connection:** This is a feature where 2 users would start a new chat connection after they each share 1 photo with each other, which gamifies interactions through photo sharing. However, this requires robust privacy and validation mechanisms. These features, while engaging, are not essential for the initial core functionality of Event Radar.
-- **Photo Upload for Events**: Allowing photo uploads from event attendees for events they attended necessitates additional database storage and management for additional media files, increasing the complexity of the app. This feature does not provide significant value for the MVP and can be considered for future iterations.
-- **In-App CarPool/ Ride Share:** Enabling users to offer or request rides to events fosters pre-event socialization among attendees from similar areas. This feature enhances the community aspect of the app. However, its implementation demands intricate backend programming and extensive integration with mapping services like Google Maps.
+- **Photo Upload for Events**: Allowing photo uploads from event attendees tied to the event they attended necessitates additional database storage and management for additional media files, increasing the complexity of the app. This feature does not provide significant value for the MVP and can be considered for future iterations.
+- **In-App CarPool/ Commuting Coordination:** Enabling users to offer or request rides or to notify how they will be commuting to the event fosters pre-event socialising among attendees from similar areas. This feature enhances the community aspect of the app. However, its implementation demands intricate backend programming and extensive integration with mapping services like Google Maps.
 
 **Complex Event and Ticketing Management Tools and More**
 - **Advanced ticketing options:** Features such as reserved seating for sit-down events and discount codes introduce additional layers of ticket management and require complex booking systems. As these are not central to the core purpose of the app, they will be excluded from the MVP.
 - **Comprehensive event analytics:** Providing detailed reports and beneficial statistics on event data involves creating extensive data collection and analysis tools. While beneficial for event hosts, this functionality is not critical for the app’s initial launch and primary objectives.
-- **Ticket Reselling:** While enabling event attendees to resell purchased tickets can greatly enhance the user experience and mitigate risks associated with ticket buying, it introduces complexity, such as ensuring secure transactions and verifying the authenticity of resold tickets.
+- **Ticket Reselling:** While enabling event attendees to resell purchased tickets can greatly enhance the user experience and mitigate risks associated with ticket buying, it introduces complexity, such as ensuring secure transactions and verifying the authenticity of resold tickets but will be included in later versions of the app.
 
 **Extensive Partner Integrations**
-
 - **Integration with external calendar apps (e.g., Google Calendar, Apple Calendar):** This feature is not essential for the initial marketable version of the app and adds unnecessary complexity. Synchronizing data with external calendar services requires robust data management and synchronization mechanisms, which can complicate the development process and delay the launch.
 
 **Integration Plan for Future Features**
 
-In the post-MVP phase, the integration of out-of-scope features into Event Radar will be guided by an iterative approach, shaped by user feedback and market demands. Comprehensive event analytics will take precedence as the initial focus. This is essential because our ability to retain event attendees hinges on attracting top-tier event organizers. Achieving this requires our app to match and surpass the performance of other event platforms. Ticket reselling is the next priority, as it will help build confidence and trust in the app if users do not have to take great risks with buying tickets. 
+In the post-MVP phase, the integration of out-of-scope features into Event Radar will be guided by an iterative approach, shaped by user feedback and market demands. Comprehensive event analytics will take precedence as the initial focus. This is essential because our ability to retain event attendees hinges on attracting top-tier event organizers. Achieving this requires our app to match and surpass the performance of other event platforms. Ticket reselling is the next priority, as it will help build confidence and trust in the app.
 
 Following analytics integration, the rollout of advanced social networking features will address the core value proposition of Event Radar, enhancing user engagement and event discovery. The app’s development of a solid user base, user feedback and market trends will inspire choices for long term integrations with event venues or organizers to further enrich the user experience and retain the solid user base. Advanced ticketing options will then be introduced, such as reserved seating and discount codes, aligning our event management tools with industry standards. Lastly, integration with external calendar apps, though a lower priority, will be considered based on ongoing user feedback and its potential to enhance user convenience. 
 
