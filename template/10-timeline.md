@@ -16,13 +16,13 @@ Allow users to authenticate and browse for events
 | 3 | Core Feature Development | Implement sign-up flow, set up user database, develop login functionality, create home page, release initial APK for testing. |
 
 ## Milestone 2
-Allow users to search for events and register to them, allow hosts to create events and Qr Code Generation and 
+Allow users to search for events, register for them, allow hosts to create events, and generate QR codes
 
 | Sprint | Objectives | Outcomes |
 |--------|------------|----------|
 | 4 | Event Discovery Features | Enable browsing of events in map view and list view, display event details when selected |
 | 5 | Event Registration and Search Filter | Develop a search feature for events, implement functionality for users to register and purchase tickets to events (payment gateway integration). |
-| 6 | QR Code and Event Creation | Develop functionality for users to create events with: multiple ticket tiers, added co-hosts and option to update the event details. Ensure each user is assigned a unique Qr code upon signUp. |
+| 6 | QR Code Generation and Event Creation | Develop functionality for users to create events with: multiple ticket tiers, added co-hosts and option to update the event details. Ensure each user is assigned a unique QR code upon sign up. |
 
 ## Milestone 3
 Allow users to send private messages, Scan Qr Codes, and view friend profiles
