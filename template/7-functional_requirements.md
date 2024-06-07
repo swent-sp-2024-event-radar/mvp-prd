@@ -27,7 +27,7 @@ __Create Events:__
 
 - Provide a user-friendly interface for creating events.
 - Enable organizers to add a detailed description, image, location, date, ticket supply, and other relevant information.
-- Any new event created will be automatically added to Browse Events for other users and My Hosted Events.
+- Any new event created will be automatically added to Browse Events for other users.
 
 __Edit Events(Not in POC):__
 
