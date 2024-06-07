@@ -2,7 +2,7 @@
 
 ## Frontend
 ### Implementation Framework
-The app will be developed in Kotlin, optimized for Android, utilizing the Model-View-ViewModel (MVVM)architecture. This approach ensures a clear separation of concerns, making the management of the app’s UI and business logic more efficient and maintainable.
+The app will be developed in Kotlin, optimized for Android, utilizing the Model-View-ViewModel (MVVM) architecture. This approach ensures a clear separation of concerns, making the management of the app’s UI and business logic more efficient and maintainable.
 ### Key Libraries and Languages
 - **Kotlin**: Primary language for our Android development
 - **Hilt**: Dependency injection library for managing dependencies and improving code modularity.
@@ -12,11 +12,17 @@ The app will be developed in Kotlin, optimized for Android, utilizing the Model-
 - **Android Camera Image Analysis**: Utilized for integrating camera functionalities required for photo capture during friend requests.
 - **Dagger Assisted Factory**: Design pattern to create objects, particularly useful in the ViewModel creation process, ensuring that instances are correctly initialized with necessary dependencies.
 - **ZXing**: Library to encode information to QR codes and decode QR codes to information
+- **Nominatim API**: Used for geocoding and reverse geocoding to convert location names to coordinates and vice versa.
+- **Third-Party Payment SDK** (e.g., Stripe or PayPal): Integrate payment services for ticket purchasing.
 ### Dynamic UI Rendering Strategy
 The app will leverage Jetpack Compose for dynamic UI rendering. Compose enables the creation of UI components declaratively, allowing for real-time updates and modifications based on data changes.
 - **Composable Functions**: These will be used to define each screen and UI component, enabling reusable and modular UI elements.
 - **State Management**: ViewModels will manage the state, ensuring the UI is always in sync with the underlying data model.
 ### Essential Screens
+#### i Navigation Bar
+- **Features**: Icons for the five Main Screens (all except 2.1, 4.1, 6 and 6.1): Home, Messages, QR Code, Hosted Events, and Profile
+- **Compenents**: Navigation Menu with the icons of the main screens and an Active State Indicator
+- **Description**: The Bottom Navigation Bar enhances user experience by providing a consistent and accessible means of navigating the app. Located at the bottom of the screen, it ensures that the primary functions of the app are always within easy reach, improving the overall usability and efficiency of the app.
 #### 1 Home Screen
 - **Features**: Displays all events as well as events the user has registered to in either list or map view
 - **Components**: Event list, Upcoming events, search-filter, list/map view button
@@ -35,8 +41,8 @@ The app will leverage Jetpack Compose for dynamic UI rendering. Compose enables 
 - **Description**: The User Profile Screen offers a view of the user's information, allowing easy access for review and modification. 
 #### 4 Messages Screen
 - **Features**: Facilitates real-time messaging between users.
-- **Components**: Chat list and My Friends’ chat list
-- **Description**: The Messaging Screen serves as a central hub for users to engage in real-time conversations. It provides a comprehensive view of all conversations, allowing users to seamlessly switch between chats. Additionally, a tab allows users to specifically view conversations with their friends, streamlining communication with close contacts.
+- **Components**: Chat list and My Friends list
+- **Description**: The Messaging Screen serves as a central hub for users to engage in real-time conversations. It provides a comprehensive view of all conversations, allowing users to seamlessly switch between chats. Additionally, a tab allows users to specifically view their friends list, streamlining the ability to review the connections made and communications with close contacts.
 ##### 4.1 Single Message Conversation Screen
 - **Features**: Enables real-time messaging between users within a single conversation.
 - **Components**: Message List, Message Input Field, Send Button, other user’s profile picture and name
@@ -49,23 +55,28 @@ The app will leverage Jetpack Compose for dynamic UI rendering. Compose enables 
 - **Features**: Displays detailed information about a selected event, including date, time, location, and group chat (not in POC)
 - **Components**: Event description, group chat redirection button
 - **Description**: The Event Details Screen offers comprehensive details about the selected event, enhancing the user's understanding of the event's key aspects. Additionally, registered users can access the event's group chat (not available in POC), facilitating communication and engagement among attendees.
+##### 6.1 Ticket Purchase Screen
+- **Features**: Enables users to purchase tickets for events through a third-party payment service.
+- **Components**: Ticket options, Payment gateway integration (e.g., Stripe or PayPal), Purchase button.
+- **Description**: The Ticket Purchase Screen allows users to select and purchase tickets for events securely. It integrates with third-party payment services, ensuring a smooth and safe transaction process.
 ### Backend Communication
 The app will utilize Firebase for backend communication, leveraging its robust set of tools and services:
 - **Authentication**: Firebase Authentication for secure login and user management.
 - **Database**: Firebase Firestore for real-time data synchronization and storage.
 - **Cloud Storage**: Firebase Storage for securely storing user-uploaded photos and other media.
+- **Payment Processing**: Integration with third-party payment services (e.g., Stripe or PayPal) for handling ticket purchases.
 
 ## Backend
 ### User Management
 - **Description**: This functional block handles user-related operations such as registrations, profiles, and interactions between users (e.g., becoming friends).
-- **Application Logic**: Manages user authentication, registration, profile updates, and friend requests.
+- **Application Logic**: Manages user authentication, registration, profile updates, and adding friends via QR scan.
 - **Framework**: Developed using Firebase Authentication and Firestore for data storage.
 - **Dynamic View Rendering**: Integrates with the frontend to render user profiles and friend lists dynamically based on data from Firestore.
 - **Responsive Backend-Frontend Interaction**: Ensures responsive interaction with the frontend, updating user profiles and friend lists based on user interactions.
 ### Event Management
-- **Description**: This block handles operations related to creating, updating, and managing events, including ticket management.
-- **Application Logic**: Manages event creation, updates, and ticket sales.
-- **Framework**: Utilizes Firebase Firestore for event data storage.
+- **Description**: This block handles operations related to creating, updating, and managing events, including ticket management and payment processing.
+- **Application Logic**: Manages event creation, updates, and ticket sales, and payment processing.
+- **Framework**: Utilizes Firebase Firestore for event data storage and third-party payment services for handling transactions.
 - **Dynamic View Rendering**: Provides APIs to fetch event details dynamically, ensuring frontend displays reflect the latest event information.
 - **Responsive Backend-Frontend Interaction**: Updates event details on the frontend based on user actions such as event creation or ticket purchases.
 ### Messaging System
@@ -81,11 +92,11 @@ The app will utilize Firebase for backend communication, leveraging its robust s
 ## Data Model
 ### Data Collection and Management
 #### User Data
-- **Names:** User's first and last names. (String)
-- **Email Addresses:** User's email for authentication and communication. (String)
-- **Friends:** List of friends connected within the app. (Array of userIds)
-- **Bio:** Short presentation text. (String)
-- **Profile Pictures:** Images uploaded by users as their profile pictures. (String - URL)
+- **Name:** User's first and last names. (String)
+- **Email Addresse:** User's email for authentication and communication. (String)
+- **Friend:** List of friends connected within the app. (Array of userIds)
+- **Bio:** Short description of a user. (String)
+- **Profile Picture:** Images uploaded by users as their profile pictures. (String - URL)
 - **Phone Number:** User’s phone number. (String)
 - **Birthdate:** User’s birth date. (String - Date)
 - **Account Status:** Status of the user's account. (String)
@@ -109,7 +120,7 @@ The app will utilize Firebase for backend communication, leveraging its robust s
   - **Ticket purchases**: Number of reserved tickets of the type of the ticket (Number)
 - **Attendee List**: List of users participating in events. (Array of userIds)
 - **Main Organizer**: Id of the user organizing the event. (String)
-- **Organizer List**: List of users organizing events. (Array of userIds)
+- **Organizer List**: List of user ids of users organizing events. (Array of userIds)
 #### Messages Data
 - **From User**: User sending the message (String)
 - **To User**: User receiving the message (String)
@@ -163,7 +174,6 @@ The app will utilize Firebase for backend communication, leveraging its robust s
 - HTTPS is enforced for all communications between the app and servers to guarantee the confidentiality and integrity of data transmission.
 ### Special Infrastructure Requirements
 - Scalable backend infrastructure is provisioned to handle potential spikes in traffic, especially during peak usage periods or major events.
-- Load balancing mechanisms are implemented to distribute traffic evenly across multiple server instances, optimizing performance and reliability.
 - Databases are configured for high availability and durability, with appropriate backup and recovery mechanisms in place to safeguard against data loss.
 - Monitoring and logging systems are set up to track system performance, detect anomalies, and troubleshoot issues in real-time, ensuring the smooth operation of the application.
 
@@ -176,6 +186,7 @@ The app will utilize Firebase for backend communication, leveraging its robust s
 #### ViewModel Tests
 - ViewModel tests ensure that appropriate states are prepared for UI components instantiated by factories.
 - Tests verify the logic and behavior of ViewModel classes, including interactions with factory-created UI components.
+- Tests utilize Mock Repositories for the databases to isolate testing specifically on the ViewModel.
 #### Factory Tests
 - Tests are specifically designed to validate the behavior of factories in instantiating UI components.
 - Ensure that factories correctly instantiate objects with the expected configurations and dependencies.
