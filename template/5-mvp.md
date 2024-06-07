@@ -12,6 +12,7 @@ The Event Radar MVP aims to bring together the essential features needed for eve
 Both personas go hand in hand and the app cannot exist without one or the other, thus they are both the key personas. 
 
 **To show how these personas would use Event Radar these are the high-level scenarios to adopt, use and share the product:**
+
 - **Adopting the Product**: A university student hears about Event Radar and it's unique blend of social interaction and event discovery. Intrigued by the idea of easily discovering and attending events and making new friends all in one centralized app, they download the app to explore upcoming activities relevant to their academic and personal interests.
 - **Using the Product**: The student uses Event Radar to find and register to social gatherings and workshops on campus to meet like-minded people and have a good time. They also discover off-campus events like local music shows and cultural festivals using the app's location-based event discovery feature.
 - **Sharing the Product**: After a successful experience using the app by discovering new events and keeping in touch with other attendees, the student shares their enthusiasm with friends and classmates. They post about the app on social media platforms, recommending it as a valuable tool for staying connected and discovering exciting events both on and off campus. They even host some of their own events on the platform, making even more people aware of it.
@@ -19,6 +20,7 @@ Both personas go hand in hand and the app cannot exist without one or the other,
 ## User Stories and Key Features
 
 **User Stories for Event Attendees**
+
 - As an event attendee, I want to view a list of nearby events, so that I can decide which event to go to next to socialize and meet new people.
 - As an event attendee, I want to have a unique identification ticket that allows me access to events I register for and hence easily have access to.
 - As an event attendee, I want to have multiple third-party payment options available, so that I can choose the most convenient payment method. 
@@ -27,6 +29,7 @@ Both personas go hand in hand and the app cannot exist without one or the other,
 - As an event attendee, I want to be able to connect with fellow event attendees before, during and after an event, to facilitate socializing and networking.
 
 **User Stories for Event Hosts**
+
 - As an event host, I want to be able to create events on the app so that people can discover it and attend.
 - As an event host, I want to offer multiple ticket tiers to encourage early purchases before certain categories sell out and to provide tickets with varying privileges, such as VIP access.
 - As an event host, I want to promote my event to reach a wider audience, increasing the potential for more attendees.
@@ -64,6 +67,7 @@ We believe these are the key features to Event Radar to make the MVP and ensure 
     - Track event host interactions via metrics such as number of events created, ticket sales, and number of QR code scans to check-in tickets, measuring the event attendance. 
 
 **Feedback and Satisfaction**
+
 - Achieve a minimum average rating of 3.5 out of 5 stars on app stores within the first three months of launch.
 - Conduct monthly surveys in the first year of launch to gather user feedback, aiming for at least 60% positive feedback regarding app usefulness and user experience. This is both event attendee reviews and ratings as well as post-event surveys to understand attendee experiences and event host satisfaction. 
 - Implement at least half of the user-requested features or improvements by two weeks after each feedback survey. This will help build user trust in our platform, increasing user adoption and retention.
@@ -78,16 +82,19 @@ By focusing on these key features and success metrics, Event Radar aims to deliv
 ## Features Outside the Scope
 
 **Advanced Social Networking Features**
+
 - **Social feeds for user interactions:** Social feeds refer to a stream of content that users can consume in order to enhance the discovery of new events tailored to the user’s interests. However, implementing social feeds requires complex recommendation algorithms and additional infrastructure for content discovery. To keep the MVP simple and focused on core functionalities, social feeds will not be included.
 - **Photo Upload for Events**: Allowing photo uploads from event attendees tied to the event they attended necessitates additional database storage and management for additional media files, increasing the complexity of the app. This feature does not provide significant value for the MVP and can be considered for future iterations.
 - **In-App CarPool/ Commuting Coordination:** Enabling users to offer or request rides or to notify how they will be commuting to the event fosters pre-event socialising among attendees from similar areas. This feature enhances the community aspect of the app. However, its implementation demands intricate backend programming and extensive integration with mapping services like Google Maps.
 
 **Complex Event and Ticketing Management Tools and More**
+
 - **Advanced ticketing options:** Features such as reserved seating for sit-down events and discount codes introduce additional layers of ticket management and require complex booking systems. As these are not central to the core purpose of the app, they will be excluded from the MVP.
 - **Comprehensive event analytics:** Providing detailed reports and beneficial statistics on event data involves creating extensive data collection and analysis tools. While beneficial for event hosts, this functionality is not critical for the app’s initial launch and primary objectives.
 - **Ticket Reselling:** While enabling event attendees to resell purchased tickets can greatly enhance the user experience and mitigate risks associated with ticket buying, it introduces complexity, such as ensuring secure transactions and verifying the authenticity of resold tickets but will be included in later versions of the app.
 
 **Extensive Partner Integrations**
+
 - **Integration with external calendar apps (e.g., Google Calendar, Apple Calendar):** This feature is not essential for the initial marketable version of the app and adds unnecessary complexity. Synchronizing data with external calendar services requires robust data management and synchronization mechanisms, which can complicate the development process and delay the launch.
 
 **Integration Plan for Future Features**
