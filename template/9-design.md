@@ -22,6 +22,7 @@ The app will be developed in Kotlin, optimized for Android, utilizing the Model-
 ### Dynamic UI Rendering Strategy
 
 The app will leverage Jetpack Compose for dynamic UI rendering. Compose enables the creation of UI components declaratively, allowing for real-time updates and modifications based on data changes.
+
 -  **Composable Functions**: These will be used to define each screen and UI component, enabling reusable and modular UI elements.
 -  **State Management**: ViewModels will manage the state, ensuring the UI is always in sync with the underlying data model.
 
