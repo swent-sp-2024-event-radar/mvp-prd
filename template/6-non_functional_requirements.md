@@ -3,7 +3,7 @@
 ## Security, privacy, and data retention policies
 
 
-Given the global reach of our app, we must adhere to local laws concerning data security and privacy. Beginning with Europe, compliance with GDPR is essential. Users in Europe must have access to and the ability to delete their data. We will explicitly request camera access (for QR code scanning, photo-taking) and user location (to suggest local events). Additionally, users must consent to their data being stored by Google.
+Given the global reach of our app, we must adhere to local laws concerning data security and privacy. Beginning with Europe, compliance with GDPR is essential. Users in Europe must have access to and the ability to delete their data. We will explicitly request camera access (for QR code scanning, photo-taking) and user location (to suggest local events). Additionally, users will be asked to provide consent for their data to be shared with third parties we engage with.
 
 As our app is designed to foster connections and facilitate new friendships, users have personal profiles within the app to share information with their friends, allowing them to be identified within the community. Users have full control over their privacy settings, determining which information is visible to other users. The user needs also to be able to delete any sent message or event in the history of attended events.
 The backend for these private informations should be done in such a way that we cannot extract or infer any personally identifiable informations.
